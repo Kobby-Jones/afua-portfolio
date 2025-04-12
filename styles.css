@@ -58,7 +58,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
     }
     .skills-section{
         background-image: url('./images/skills-background.jpg');
@@ -66,7 +65,6 @@
         width: 100%;
         background-attachment: fixed;
         background-position: center;
-        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
