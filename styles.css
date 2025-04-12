@@ -70,6 +70,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     .skills-container{
         background-color: rgba(0,0,0,0.8);
@@ -86,6 +88,9 @@
     .card-text{
         font-family: Arial, sans-serif;
     }
+    .about-card, .skills-section .card, .brief-intro-section .card {
+      margin-bottom: 2rem;
+    }
 
     .brief-intro-section{
       background-image: url('./images/home-background.jpg');
@@ -95,6 +100,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
 
     }
     .brief-intro-container{
@@ -209,4 +216,16 @@
       padding: 2rem;
       
     }
-  
+  /* Responsive padding for skills section */
+@media (max-width: 768px) {
+  .skills-section .row {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .skills-section .card {
+    padding: 1rem !important;
+  }
+  .brief-intro-section .row {
+    padding: 1rem !important;
+  }
+}
