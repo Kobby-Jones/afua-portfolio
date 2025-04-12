@@ -1,14 +1,8 @@
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #f5f7fa;
       color: #333;
-      line-height: 1.6;
     }
     .nav-link:hover{
         color: rgb(201, 85, 43) !important;
@@ -19,13 +13,8 @@
     .navbar-nav .nav-link:active{
         color: rgb(201, 85, 43) !important;
     }
-    .hero {
-      text-align: center;
-      padding: 4rem 2rem;
-      background: linear-gradient(to right, #e0ecf8, #f5f7fa);
-    }
-    #top{
-        background-image: url('home-background.jpg');
+    .hero-section{
+        background-image: url('./images/home-background.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -36,32 +25,30 @@
         align-items: center;
         height: 100vh;
     }
-    #hero-container{
+    .hero-container{
         background-color: rgba(0,0,0,0.8);
 
     }
     .profile-row{
         padding: 20px;
     }
+    .border-orange{
+      border: 5px solid rgb(201, 85, 43) !important;
+    }
+    #picture{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+
+      
+    }
     .text-orange{
-        color: rgb(201, 85, 43);
+        color: rgb(201, 85, 43) !important                                                                                                                                                                                                                                                                                                                                                           ;
     }
-    .hero img {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      border: 4px solid #0e76a8;
-    }
-    .hero h1 {
-      margin-top: 1rem;
-      font-size: 2.8rem;
-    }
-    .hero p {
-      font-size: 1.1rem;
-      color: #666;
-    }
+ 
     .about-section{
-        background-image: url('digital-market.jpg');
+        background-image: url('./images/digital-market.jpg');
         background-size: cover;
         width: 100%;
         background-attachment: fixed;
@@ -74,7 +61,7 @@
         height: 100vh;
     }
     .skills-section{
-        background-image: url('skills-background.jpg');
+        background-image: url('./images/skills-background.jpg');
         background-size: cover;
         width: 100%;
         background-attachment: fixed;
@@ -101,7 +88,7 @@
     }
 
     .brief-intro-section{
-      background-image: url('home-background.jpg');
+      background-image: url('./images/home-background.jpg');
       background-size: cover;
       background-position: center;
       padding: 40px;
@@ -128,7 +115,7 @@
         color: white !important;
     }
     #experience{
-      background-image: url('digital-marketing.jpg');
+      background-image: url('./images/digital-marketing.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -147,11 +134,27 @@
     .education-card{
       background-color: rgba(0, 0 , 0, 0.8) !important;
     }
-    #education{
-      background-image: url('digital\ marketing\ bg.jpg');
+    .certifications-card{
+      background-color: rgba(0, 0 , 0, 0.8) !important;
+    }
+    .list-group-item{
+      background-color: rgba(0, 0 , 0, 0.8) !important;
+      color: white !important;
+      border: 1px solid rgb(201, 85, 43) !important;
+      padding: 30px !important;
+    }
+    #education, #certifications{
+      background-image: url('./images/digital\ marketing\ bg.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      padding: 40px;
+    }
+    .education-container, .certifications-container{
+      background-color: rgba(0,0,0,0.8);
+        padding: 40px;
+        border-radius: 10px;
+        width: 100%;
     }
     .socials {
       margin-top: 1rem;
@@ -187,11 +190,23 @@
       margin-bottom: 0.5rem;
       color: #555;
     }
+    .contact-section{
+        background-image: url('./images/contact-background.jpg');
+        background-size: cover;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .contact-container{
+    background-color: rgba(0,0,0,0.8) !important;
+   }
     .footer {
       text-align: center;
       padding: 2rem;
-      background: #0e76a8;
-      color: white;
-      margin-top: 2rem;
+      
     }
   
